@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family;Dancing+Script&display;swap"); /*Dancing Script (name)*/
-@import url("https://fonts.googleapis.com/css2?family;Quicksand&display;swap"); /*Quicksand (h1)*/
-@import url("https://fonts.googleapis.com/css2?family;DotGothic16&display;swap"); /*DotGothic16 (h2)*/
-@import url("https://fonts.googleapis.com/css2?family;Cormorant+Unicase&display;swap"); /*Cormorant Unicase (menu)*/
-@import url("https://fonts.googleapis.com/css2?family;Pangolin&display;swap"); /*Pangolin (p)*/
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"); /*Dancing Script (name)*/
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap"); /*Quicksand (h1)*/
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"); /*DotGothic16 (h2)*/
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Unicase&display=swap"); /*Cormorant Unicase*/
 
 html {
   scroll-behavior: smooth;
 }
+
 body {
   margin: 0;
   padding-top: 800px;
@@ -63,11 +63,6 @@ h2 {
   font-size: 42px;
 }
 
-.iframe {
-  width: 900;
-  height: 500;
-}
-
 .line {
   height: 6px;
   background-color: darkorange;
@@ -80,7 +75,6 @@ p {
   margin: 25px auto;
   font-size: 17px;
   line-height: 1.3;
-  font-family: Pangolin;
 }
 
 .parallax-inner {
@@ -89,7 +83,6 @@ p {
   text-align: center;
   vertical-align: middle;
 }
-
 .menu {
   list-style: none;
   font-family: Cormorant Unicase;
@@ -99,7 +92,6 @@ p {
   cursor: pointer;
   z-index: 10;
 }
-
 .links {
   float: left;
   color: #28527a;
@@ -108,7 +100,6 @@ p {
   padding-left: 9px;
   padding-right: 9px;
 }
-
 .links:hover {
   background-color: #f4d160;
 }

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"); /*Dancing Script (name)*/
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap"); /*Quicksand (h1)*/
 @import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"); /*DotGothic16 (h2)*/
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Unicase&display=swap"); /*Cormorant Unicase*/
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Unicase&display=swap"); /*Cormorant Unicase (menu)*/
 
 html {
   scroll-behavior: smooth;
@@ -17,6 +17,7 @@ body {
   width: 175px;
   margin-bottom: 50px;
   border-radius: 50%;
+  margin-top: 20px;
 }
 
 #welcome {
@@ -71,7 +72,7 @@ h2 {
 }
 
 p {
-  max-width: 450px;
+  max-width: 800px;
   margin: 25px auto;
   font-size: 17px;
   line-height: 1.3;
